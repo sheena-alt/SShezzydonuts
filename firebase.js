@@ -18,7 +18,7 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 // 4. Save Order Function
-window.confirm = async function() {
+window.saveOrder = async function() {
     try {
         console.log("Saving order to Sheezzy Donuts...");
         
